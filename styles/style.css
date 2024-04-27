@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-image: url('../images/bannerimg.png');
+    width: 1320px;
+    height: 600px;
+    justify-content: center;
+    margin: 70px;
+    margin-right: 70px;
+
+}
+
+.container-text {
+    margin-top: ;
+    padding-top: 177px;
+    padding-left: 344px;
+    padding-right: 344px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .container-text h1 {
+    color: white;
+    font-size: 32px;
+    
+    
+}
+
+.container .container-text p {
+    color: white;
+  margin-bottom: 50px ;
+ 
+ 
+    
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 400;
+    
+    
+}
+
+
+
+/* .container .container-text p {
+    padding-top: 233px;
+    padding-bottom: 177px;
+    padding-left: 344px;
+    padding-right: 344px;
+    width: 632px;
+    height: 190px;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+} */
+
+.discount {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.discount .discount-text h2 .importent {
+    width: 383px;
+    height: 107px;
+    color: red;
+    font-family: 'inter';
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount .discount-text h4 .offer {
+    width: 397px;
+    height: 29px;
+    color: red;
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.discount .discount-text h1 .holiday {
+    width: 410px;
+    height: 58px;
+
+}
+.party-content {
+   
+}
+
+.party {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+    justify-content: space-around;
+}
+
+.party .party-text {
+    color: white;
+    margin-top: 126px;
+    margin-left: 126px;
+    margin-right: 400px;
+  
+
+    /* color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left; */
+
+
+}
+
+.party .party-text h1{
+    font-size: 50px;
+
+}
+
+.party .party-image img {
+
+    margin-top: 65px;
+    margin-right: 108px;
+    margin-bottom:65px ;
+
+    
+}
+
+.content {
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    justify-content: center;
+    margin: 120px auto;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.content .text {
+    width: 549px;
+    height: 168px;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 214px;
+    padding-left: 386px;
+    padding-right: 386px;
+}
+
+.content .text h1 .importent {
+    color: red;
+}
+
+
+
+.new {
+    display: flex;
+    width: 1320px;
+    height: 463px;
+    gap: 20px;
+}
+.btn{
+    background-color: red;
+}
+
+.new .Best {
+    /* width: 392px;
+    height: 255px; */
+    margin-right: 100px;
+    margin-top: 80px;
+   
+
+}
+.happy{
+    margin-left: 20px;
+}
+.new .Best h4{
+    color: red;
+}
+.new .Best h1 {
+    font-size: 35px;
+}
+.happy h1{
+    color: red;
+    font-size: 35px;
+}
+.Happy-image{
+    margin-top: 30px;
+}
+
+
+.content-section {
+    width: 1320px;
+    height: 1163px;
+    align-items: center;
+    justify-items: center;
+}
+
+.content-section .content-text h3 {
+    width: 192px;
+    height: 29px;
+    left: 10.61%;
+    right: 74.85%;
+    top: 404.74%;
+    bottom: -307.23%;
+    color: rgba(255, 0, 0);
+    font-family: ' Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    padding-bottom: 16px;
+
+
+}
+
+.content-section .content-text h1 {
+    width: 566px;
+    height: 60px;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    color: rgb(7, 2, 17);
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.content-section .content-text p {
+    width: 896px;
+    height: 64px;
+    left: 140px;
+    right: 284px;
+    top: 4834.07px;
+    bottom: -3735.07px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.content-section .content-img {
+    display: flex;
+    gap: 44px;
+}
+
+.content-section .content-img img {
+    width: 424px;
+    height: 450px;
+    left: 140px;
+    right: 756px;
+    top: 4946.07px;
+    bottom: -4233.07px;
+    border-radius: 16px;
+}
+.sub-section{
+    position: absolute;
+width: 1320px;
+height: 616px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 60px;
+
+}
+
+.subscribe {
+
+    width: 1320px;
+    height: 616px;
+    left: 140px;
+    right: -140px;
+    top: 5990.07px;
+    bottom: -5990.07px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe .subscribe-newslatter img {
+    margin-top: 86px;
+    
+
+    
+}
+.subscribe .subscribe-newslatter p{
+    margin-left:212px ;
+    margin-right:212px ;
+}
+
+.last input{
+    border-radius: 16px;
+
+    background-color: aliceblue;
+    height: 40px;
+    width: 250px;
+    color: white;
+    text-align: center;
+
+}
+.last button{
+   
+   color: white;
+    border-radius: 16px;
+    width: 100px;
+    height: 40px;
+
+    background-color: red;
+
+}
+.footer-section{
+    max-width: 1250px;
+    width: 100%;
+
+    min-height: 350px;
+    margin: 700px auto;
+    background-color: #5A5A5D;
+    text-align: center;
+    
+}
+
+.footer-section .text-file{
+    
+display: flex;
+width: 1185px;
+height: 80px;
+left: 140px;
+right: 270px;
+top: 6846.07px;
+bottom: -6317.07px;
+justify-content:space-around;
+
+}
+
+.text-file .text{
+    width: 280px;
+    height:80px ;
+left: 11.81%;
+right: 56.54%;
+top: 8557.59%;
+bottom: -8557.59%;
+}
+
+.text-file .logolo-text h4{
+width: 195px;
+height: 40px;
+left: 474.04%;
+right: -457.02%;
+top: 17115.17%;
+bottom: -17115.17%;
+}
+
+.text-file .logolo-text h3{
+    width: 211px;
+    height: 40px;
+    left: 443.82%;
+    right: -427.89%;
+    top: 17215.1%;
+    bottom: -17215.17%;
+}
+
